@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wadana's Daily Progress Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wadana's Daily Progress Tracker</h1>
+        <p>Enter the number of MCQs you’ve completed today:</p>
+
+        <input type="number" id="mcq-input" min="0" max="100" placeholder="0-100">
+        <button onclick="updateProgress()">Update Progress</button>
+
+        <div class="progress-container">
+            <div id="progress-bar"></div>
+            <span id="progress-text">0/100 MCQs Completed</span>
+        </div>
+
+        <div id="animation-container"></div>
+
+        <div class="motivation">
+            <p id="motivation-text">Let’s ace this exam!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

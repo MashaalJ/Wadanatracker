@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4682b4;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #696969;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1em;
+    border: 2px solid #4682b4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #4682b4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #3cb371;
+}
+
+.progress-container {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 100%;
+    background-color: #3cb371;
+    border-radius: 15px;
+    transition: width 0.3s ease-in-out;
+}
+
+#progress-text {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: #fff;
+}
+
+#animation-container {
+    margin-top: 20px;
+}
+
+.motivation {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #ff6347;
+    font-weight: bold;
+}
